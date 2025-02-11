@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+
+body {
+    background: #000;
+    font-family: "Gochi Hand", sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    gap: 10px; /* Jarak antar tombol */
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.back, .home {
+    background-color: #ffb300;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Gochi Hand", sans-serif;
+}
+
+.back:hover, .home:hover {
+    background-color: #ff8800;
+}
+
+h1 {
+    font-size: 45px;
+    letter-spacing: 0.1em;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 20px;
+    color: #ffeb00;
+    margin-top: 15px;
+}
+
+input, select {
+    border-radius: 20px;
+    width: 100%;
+    height: 35px;
+    background: #ffeb00;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+}
+
+.address {
+    height: 80px;
+    padding: 10px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row div {
+    width: 48%;
+}
+
+fieldset {
+    border: 2px solid #ffeb00;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+legend {
+    color: #ffeb00;
+    font-size: 18px;
+}
+
+/* Opsi ekstrakurikuler dibuat dalam grid */
+.extracurricular-options {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 2 kolom */
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.extracurricular-options label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin: 0;
+}
+
+.register-container {
+    display: flex;
+    justify-content: flex-end; /* Geser ke kanan */
+    margin-top: 20px;
+    bottom: -50px;
+}
+
+.register {
+    background-color: #ffb300;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Gochi Hand", sans-serif;
+}
+
+.register:hover {
+    background-color: #ff8800;
+}
+
+/* Gambar basket lebih besar dan ke bawah */
+.illustration {
+    width: 350px; /* Perbesar ukuran */
+    position: absolute;
+    bottom: -90px; /* Geser lebih ke bawah */
+    left: 20px;
+}
+
+.band-illustration {
+    width: 350px; /* Sesuaikan ukuran dengan gambar basket */
+    position: absolute;
+    bottom: -90px; /* Sama seperti gambar basket */
+    right: 20px; /* Geser ke kanan */
+}
+
